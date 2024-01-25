@@ -4,7 +4,7 @@
 		"name": "JavaNelioAlves3",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "27285819",
-		"_collection_link": "https://galactic-station-295091.postman.co/workspace/teste~e0d80962-620d-4685-a06a-c1a95215e120/collection/27285819-aa7d1d13-a125-4c21-9495-8033d750d911?action=share&creator=27285819&source=collection_link"
+		"_collection_link": "https://galactic-station-295091.postman.co/workspace/teste~e0d80962-620d-4685-a06a-c1a95215e120/collection/27285819-aa7d1d13-a125-4c21-9495-8033d750d911?action=share&source=collection_link&creator=27285819"
 	},
 	"item": [
 		{
@@ -35,7 +35,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/users/2",
+							"raw": "http://localhost:8080/users/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -43,7 +43,51 @@
 							"port": "8080",
 							"path": [
 								"users",
-								"2"
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Orders",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/orders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/orders/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"orders",
+								"1"
 							]
 						}
 					},
